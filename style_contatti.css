@@ -30,6 +30,7 @@ nav a:hover {
 main {
    max-width: 800px;
    padding: 20px;
+   font-size: 20px;
 }
 
 footer {
@@ -38,13 +39,4 @@ footer {
    padding: 20px;
    background-color: rgba(0, 0, 255, 0.438);
    font-size: 20px;
-}
-
-footer span {
-   color: transparent;
-   display: block;
-   transition: color 0.5s;
-}
-footer span:hover {
-   color: black;
 }
