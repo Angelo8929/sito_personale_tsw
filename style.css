@@ -51,20 +51,28 @@ footer {
    font-size: 20px;
 }
 
-main cite {
-   display: block;
+.bio cite {
    color: transparent;
    transition: color 0.5s;
 }
 
-main cite:hover {
+.bio cite:hover {
    color: black;
 }
-p span {
+
+.descrizione cite {
+   display: block;
+}
+
+footer span {
    color: transparent;
    display: block;
    transition: color 0.5s;
 }
-p span:hover {
+footer span:hover {
    color: black;
+}
+
+img {
+   width: 200px;
 }
