@@ -1,0 +1,62 @@
+body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   background-color: rgba(0, 0, 255, 0.438);
+   padding: 20px;
+}
+
+nav a {
+   color: black;
+   padding: 5px;
+   text-decoration: none;
+   border-bottom: 2px solid transparent;
+   font-size: 20px;
+   transition: border-color 0.5s;
+}
+
+nav a:hover {
+   border-bottom: 2px solid white;
+}
+
+main {
+   text-align: center;
+   padding: 20px;
+   max-width: 600px;
+   margin: 40px auto;
+   flex: 1;
+}
+main h1 {
+   margin: 2px;
+}
+
+main p {
+   line-height: 1.5;
+   font-size: 20px;
+}
+
+footer {
+   background-color: rgba(0, 0, 255, 0.438);
+   color: black;
+   padding: 20px;
+   text-align: center;
+   font-size: 20px;
+}
+
+main cite {
+   display: block;
+   color: transparent;
+   transition: color 0.5s;
+}
+
+main cite:hover {
+   color: black;
+}
